@@ -9,7 +9,6 @@
   --text-highlight: #e43a12;
 
   --surface-primary: #ffffff;
-  --surface-primary2: #f7dbdb;
   --surface-secondary: #fee7d6;
   --surface-disabled: #e7e5e4;
 
@@ -17,11 +16,13 @@
   --stroke-highlight: #f3541c;
   --semantic-error: #dc2626;
 
+  --filter-stroke-highlight: invert(44%) sepia(65%) saturate(4881%) hue-rotate(353deg) brightness(101%) contrast(91%);
+
   --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 0.875rem/1.4 var(--font-family);
 
-  zoom: 75%;
+  zoom: 80%;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
   overflow: hidden;
   font: var(--text);
   color: var(--text-secondary);
-  background-color: var(--surface-primary2);
+  background-color: var(--surface-primary);
 }
 
 h1,

@@ -1,0 +1,35 @@
+.dropzone {
+  display: grid;
+  justify-items: center;
+  padding: 1.75rem 1rem;
+  border: 1px dashed var(--stroke-default);
+  border-radius: 0.25rem;
+  gap: 0.5rem;
+  text-align: center;
+
+  position: relative;
+
+  & input {
+    background-color: lightgray;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    opacity: 0;
+  }
+
+  &:hover,
+  &:has(input:focus) {
+    border-width: 2px;
+    border-color: var(--stroke-highlight);
+    background-color: var(--surface-secondary);
+
+    img {
+      filter: var(--filter-stroke-highlight);
+    }
+
+    & p {
+      color: var(--text-tertiary);
+    }
+  }
+}

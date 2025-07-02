@@ -39,7 +39,7 @@
               <input type="date" id="birth" name="birth" lang="pt-BR" />
             </div>
 
-            <div class="select-wrapper">
+            <!-- <div class="select-wrapper">
               <label for="gender">Sexo</label>
               <select name="gender" id="gender">
                 <option value="female">Feminino</option>
@@ -54,18 +54,21 @@
                 name="medical-info"
                 id="medical-info"
                 cols="30"
-                rows="10"
+                rows="4"
                 placeholder="A criança possui alguma condição médica que a escola precisa estar ciente?"
               ></textarea>
-            </div>
+            </div> -->
 
             <div class="droparea-wrapper">
-              <input type="file" id="birth-file" name="birth-file" />
-              <img src="src/icons/cloud-upload.svg" alt="Icone de uma núvem" />
-              <p>
-                Clique aqui para <br />
-                selecionar os arquivos
-              </p>
+              <label for="birth-file">Certidão de Nascimento</label>
+              <div class="dropzone">
+                <input type="file" id="birth-file" name="birth-file" />
+                <img src="src/icons/cloud-upload.svg" alt="Icone de uma núvem" />
+                <p>
+                  Clique aqui para <br />
+                  selecionar os arquivos
+                </p>
+              </div>
             </div>
           </fieldset>
         </form>
