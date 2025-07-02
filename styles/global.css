@@ -21,8 +21,6 @@
   --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 0.875rem/1.4 var(--font-family);
-
-  zoom: 80%;
 }
 
 * {
@@ -56,4 +54,15 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
 }
